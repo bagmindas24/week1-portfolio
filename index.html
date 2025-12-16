@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bagmin Das | Portfolio</title>
+
+        <!-- Css Files -->
+        <link href="./css/variables.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        <link href="./css/responsive.css" rel="stylesheet"> 
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <nav aria-label="Main Navigation">
+                <div class="logo">BD</div>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <!-- Hamburger Menu -->
+                <button class="burger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Main Area -->
+        <main>
+
+            <!-- Home -->
+            <section id="home">
+                <h1>Hi, I am Bagmin!</h1>
+                <p>Aspiring Software Developer | .Net & Web Technologies</p>
+                <a href="#projects" class="btn">View my work</a> 
+            </section>
+
+            <!-- About -->
+             <section id="about" class="pattern-bg">
+                <h2>About Me</h2>
+                <p>I am a Computer Science graduate skilled in frontend and backed technologies, web development and problem-solving.</p>
+             </section>
+
+             <!-- Skills -->
+             <section id="skills" class="pattern-bg">
+                <h2>Skills</h2>
+                <ul>
+                    <li>.Net Technologies</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+             </section>
+
+             <!-- Projects -->
+             <section id="projects" class="pattern-bg">
+                <h2>Projects</h2>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>Car Information Management System</h3>
+                        <p>
+                            A data management application demonstrating full-stack MVC architecture and robust data persistence. It showcases strong backend development skills, including CRUD operations, RESTful API design, database integration (SQL), and the implementation of both client-side and server-side validation.
+                        </p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Real-Time Chat Application</h3>
+                        <p>
+                            A modern full-stack application built for low-latency, dynamic communication. This project highlights frontend development proficiency (React Js), the design of scalable backend services, and the crucial integration of WebSockets for bidirectional data flow and API design for real-time responsiveness.
+                        </p>
+                    </article>
+                </div>  
+             </section>
+
+             <!-- Contact -->
+             <section id="contact" class="pattern-bg">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="your-name">Your Name</label>
+                    <input type="text" id="your-name" name="your-name" placeholder="Enter your name" aria-label="Your Name" required>
+
+                    <label for="your-email">Your Email</label>
+                    <input type="email" id="your-email" name="your-email" placeholder="Enter your email" aria-label="Your Email" required>
+
+                    <label for="your-message">Your message</label>
+                    <textarea id="your-message" name="your-message" placeholder="Your message" aria-label="Your Message" required></textarea>
+
+                    <button type="submit">SUBMIT</button>
+                </form>
+             </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 Bagmin Das. All rights reserved</p>
+        </footer>
+
+        <script src="./js/navigation.js"></script>
+    </body>
+</html>
+
+
