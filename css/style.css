@@ -74,6 +74,12 @@ nav {
 }
 
 /* HOME */
+.profile-pic{
+    border-radius: 200px;
+    height: 250px;
+    width: 250px;
+}
+
 #home {
     min-height: 100vh;
     display: flex;
